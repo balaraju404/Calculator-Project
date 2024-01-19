@@ -24,7 +24,7 @@ body{
     border-radius: 15px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     #calculatorContainer{
         height: 80vh;
         width: 90vw;
@@ -36,7 +36,18 @@ body{
         box-shadow: 5px 5px 5px black;
         border-radius: 15px;
     }
-  
+    input{
+        padding: 1vw;
+        height: 5vh;
+        width: 80vw;
+        outline: none;
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        box-shadow: 5px 5px 5px black;
+    
+    }
 }
 
 input{
